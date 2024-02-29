@@ -1,0 +1,565 @@
+<midi app=" 3.1.1.1260">
+
+    <!-- DECK 3 MIXING-->
+    <!-- PLAYBACK -->
+    <control channel="1" event_type="Control Change" control="67">
+        <userio event="click">
+            <load_track deck_set="Default" deck_id="2" slot_id="0">
+                <translation action_on="press" behaviour="explicit"/>
+            </load_track>
+        </userio>
+    </control>
+    <control channel="1" event_type="Control Change" control="23">
+        <userio event="click">
+            <cue deck_set="Default" deck_id="2" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </cue>
+        </userio>
+    </control>
+    <control channel="1" event_type="Control Change" control="24">
+        <userio event="click">
+            <play deck_set="Default" deck_id="2" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </play>
+        </userio>
+    </control>
+    <!-- SLIDERS: UPFADER, PITCH, FILTER -->
+    <control channel="1" event_type="Control Change" control="3">
+        <userio event="click">
+            <upfader deck_set="Default" deck_id="2" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </upfader>
+        </userio>
+    </control>
+     <control channel="1" event_type="Control Change" data_type="Absolute 7" control="4" reversed="false">
+        <userio event="click">
+            <per_deck_pitch_slider_pickup_position deck_set="Default" deck_id="2" slot_id="2">
+                <translation action_on="any" behaviour="explicit"/>
+            </per_deck_pitch_slider_pickup_position>
+            <pitch_slider deck_set="Default" deck_id="2" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </pitch_slider>
+        </userio>
+    </control>
+    <control channel="1" event_type="Control Change" data_type="Absolute 7" control="5">
+        <userio event="click">
+            <deck_filter_auto deck_set="Default" deck_id="2" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </deck_filter_auto>
+        </userio>
+    </control>
+    <!-- EQ KNOBS -->
+    <control channel="1" event_type="Control Change" control="14">
+        <userio event="click">
+            <deck_eq_lo deck_set="Default" deck_id="2" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </deck_eq_lo>
+        </userio>
+    </control>
+    <control channel="1" event_type="Control Change" control="15">
+        <userio event="click">
+            <deck_eq_mid deck_set="Default" deck_id="2" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </deck_eq_mid>
+        </userio>
+    </control>
+    <control channel="1" event_type="Control Change" control="16">
+        <userio event="click">
+            <deck_eq_hi deck_set="Default" deck_id="2" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </deck_eq_hi>
+        </userio>
+    </control>
+
+    <!-- DECK 4 MIXING -->
+    <!-- PLAYBACK -->
+    <control channel="1" event_type="Control Change" control="64">
+        <userio event="click">
+            <load_track deck_set="Default" deck_id="3" slot_id="0">
+                <translation action_on="press" behaviour="explicit"/>
+            </load_track>
+        </userio>
+    </control>
+    <control channel="1" event_type="Control Change" control="29">
+        <userio event="click">
+            <cue deck_set="Default" deck_id="3" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </cue>
+        </userio>
+    </control>
+    <control channel="1" event_type="Control Change" control="30">
+        <userio event="click">
+            <play deck_set="Default" deck_id="3" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </play>
+        </userio>
+    </control>
+    <!-- SLIDERS: UPFADER, PITCH, FILTER -->
+    <control channel="1" event_type="Control Change" control="9">
+         <userio event="click">
+            <upfader deck_set="Default" deck_id="3" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </upfader>
+        </userio>
+    </control>
+    <control channel="1" event_type="Control Change" data_type="Absolute 7" control="10" reversed="false">
+        <userio event="click">
+            <per_deck_pitch_slider_pickup_position deck_set="Default" deck_id="3" slot_id="2">
+                <translation action_on="any" behaviour="explicit"/>
+            </per_deck_pitch_slider_pickup_position>
+            <pitch_slider deck_set="Default" deck_id="3" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </pitch_slider>
+        </userio>
+    </control>
+    <control channel="1" event_type="Control Change" data_type="Absolute 7" control="11">
+        <userio event="click">
+            <deck_filter_auto deck_set="Default" deck_id="3" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </deck_filter_auto>
+        </userio>
+    </control>
+    <!-- EQ KNOBS -->
+    <control channel="1" event_type="Control Change" control="20">
+        <userio event="click">
+            <deck_eq_lo deck_set="Default" deck_id="3" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </deck_eq_lo>
+        </userio>
+    </control>
+    <control channel="1" event_type="Control Change" control="21">
+        <userio event="click">
+            <deck_eq_mid deck_set="Default" deck_id="3" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </deck_eq_mid>
+        </userio>
+    </control>
+    <control channel="1" event_type="Control Change" control="22">
+        <userio event="click">
+            <deck_eq_hi deck_set="Default" deck_id="3" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </deck_eq_hi>
+        </userio>
+    </control>
+
+    <!-- QUANTIZE BUTTON -->
+    <control channel="1" event_type="Control Change" control="27">
+        <userio event="click">
+            <quantize deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </quantize>
+            <quantize deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </quantize>
+            <quantize deck_set="Default" deck_id="2" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </quantize>
+            <quantize deck_set="Default" deck_id="3" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </quantize>
+        </userio>
+    </control>
+
+    <!-- FX 1 -->
+    <!-- MODE TOGGLE -->
+    <control channel="1" event_type="Control Change" control="26">
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="Single Mode"/>
+            </condition>
+            <userio event="click">
+                <effect_bank_mode deck_set="DJ Effects" deck_id="0" slot_id="0">
+                    <translation action_on="press" behaviour="static" static_value="Multi Mode"/>
+                </effect_bank_mode>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="Multi Mode"/>
+            </condition>
+            <userio event="click">
+                <effect_bank_mode deck_set="DJ Effects" deck_id="0" slot_id="0">
+                    <translation action_on="press" behaviour="static" static_value="Single Mode"/>
+                </effect_bank_mode>
+            </userio>
+        </case>
+    </control>
+    <!-- LEVEL KNOBS -->
+    <control channel="1" event_type="Control Change" control="17">
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="Single Mode"/>
+            </condition>
+            <userio event="click">
+                <effect_slot_parameter_1 deck_set="DJ Effects" deck_id="0" slot_id="0">
+                    <translation action_on="any" behaviour="explicit"/>
+                </effect_slot_parameter_1>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="Multi Mode"/>
+            </condition>
+            <userio event="click">
+                <effect_level_1_slot_parameter_1 deck_set="DJ Effects" deck_id="0" slot_id="1">
+                    <translation action_on="any" behaviour="explicit"/>
+                </effect_level_1_slot_parameter_1>
+            </userio>
+        </case>
+    </control>
+    <control channel="1" event_type="Control Change" control="18">
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="Single Mode"/>
+            </condition>
+            <userio event="click">
+                <effect_slot_parameter_2 deck_set="DJ Effects" deck_id="0" slot_id="0">
+                    <translation action_on="any" behaviour="explicit"/>
+                </effect_slot_parameter_2>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="Multi Mode"/>
+            </condition>
+            <userio event="click">
+                <effect_level_1_slot_parameter_1 deck_set="DJ Effects" deck_id="0" slot_id="2">
+                    <translation action_on="any" behaviour="explicit"/>
+                </effect_level_1_slot_parameter_1>
+            </userio>
+        </case>
+    </control>
+    <control channel="1" event_type="Control Change" control="19">
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="Single Mode"/>
+            </condition>
+            <userio event="click">
+                <effect_slot_parameter_3 deck_set="DJ Effects" deck_id="0" slot_id="0">
+                    <translation action_on="any" behaviour="explicit"/>
+                </effect_slot_parameter_3>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="Multi Mode"/>
+            </condition>
+            <userio event="click">
+                <effect_level_1_slot_parameter_1 deck_set="DJ Effects" deck_id="0" slot_id="3">
+                    <translation action_on="any" behaviour="explicit"/>
+                </effect_level_1_slot_parameter_1>
+            </userio>
+        </case>
+    </control>
+    <!-- FX BUTTONS -->
+    <control channel="1" event_type="Control Change" data_type="Absolute 7" control="1">
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="Single Mode"/>
+                <touch_effect_modifier deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="off"/>
+            </condition>
+            <userio event="click">
+                <effect_slot_parameter_4 deck_set="DJ Effects" deck_id="0" slot_id="0">
+                    <translation action_on="any" behaviour="explicit"/>
+                </effect_slot_parameter_4>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="Single Mode"/>
+                <touch_effect_modifier deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="on"/>
+            </condition>
+            <userio event="click">
+                <effect_slot_parameter_4 deck_set="DJ Effects" deck_id="0" slot_id="0">
+                    <translation action_on="press" behaviour="static" static_value="on"/>
+                </effect_slot_parameter_4>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="Multi Mode"/>
+                <touch_effect_modifier deck_set="DJ Effects" deck_id="0" slot_id="2" operator="equal" cmp_value="off"/>
+            </condition>
+            <userio event="click">
+                <effect_level_1_slot_enable deck_set="DJ Effects" deck_id="0" slot_id="2">
+                    <translation action_on="press" behaviour="toggle"/>
+                </effect_level_1_slot_enable>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="Multi Mode"/>
+                <touch_effect_modifier deck_set="DJ Effects" deck_id="0" slot_id="2" operator="equal" cmp_value="on"/>
+            </condition>
+            <userio event="click">
+                <effect_level_1_slot_enable deck_set="DJ Effects" deck_id="0" slot_id="2">
+                    <translation action_on="press" behaviour="static" static_value="on"/>
+                </effect_level_1_slot_enable>
+            </userio>
+        </case>
+    </control>
+    <control channel="1" event_type="Control Change" data_type="Absolute 7" control="2">
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="Single Mode"/>
+                <touch_effect_modifier deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="off"/>
+            </condition>
+            <userio event="click">
+                <effect_slot_parameter_5 deck_set="DJ Effects" deck_id="0" slot_id="0">
+                    <translation action_on="any" behaviour="explicit"/>
+                </effect_slot_parameter_5>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="Single Mode"/>
+                <touch_effect_modifier deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="on"/>
+            </condition>
+            <userio event="click">
+                <effect_slot_parameter_5 deck_set="DJ Effects" deck_id="0" slot_id="0">
+                    <translation action_on="press" behaviour="static" static_value="on"/>
+                </effect_slot_parameter_5>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="Multi Mode"/>
+                <touch_effect_modifier deck_set="DJ Effects" deck_id="0" slot_id="3" operator="equal" cmp_value="off"/>
+            </condition>
+            <userio event="click">
+                <effect_level_1_slot_enable deck_set="DJ Effects" deck_id="0" slot_id="3">
+                    <translation action_on="press" behaviour="toggle"/>
+                </effect_level_1_slot_enable>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="0" slot_id="0" operator="equal" cmp_value="Multi Mode"/>
+                <touch_effect_modifier deck_set="DJ Effects" deck_id="0" slot_id="3" operator="equal" cmp_value="on"/>
+            </condition>
+            <userio event="click">
+                <effect_level_1_slot_enable deck_set="DJ Effects" deck_id="0" slot_id="3">
+                    <translation action_on="press" behaviour="static" static_value="on"/>
+                </effect_level_1_slot_enable>
+            </userio>
+        </case>
+    </control>
+    <!-- TAP TEMPO -->
+    <control channel="1" event_type="Control Change" control="46">
+        <userio event="click">
+            <effect_bank_tap_tempo deck_set="DJ Effects" deck_id="1" slot_id="0">
+                <translation action_on="any" behaviour="static" static_value="Clear"/>
+            </effect_bank_tap_tempo>
+        </userio>
+    </control>
+    <control channel="1" event_type="Control Change" control="47">
+        <userio event="click">
+            <effect_bank_tap_tempo deck_set="DJ Effects" deck_id="0" slot_id="0">
+                <translation action_on="any" behaviour="static" static_value="Clear"/>
+            </effect_bank_tap_tempo>
+        </userio>
+    </control>
+
+
+    <!-- FX 2 -->
+    <!-- MODE TOGGLE -->
+    <control channel="1" event_type="Control Change" control="28">
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="Single Mode"/>
+            </condition>
+            <userio event="click">
+                <effect_bank_mode deck_set="DJ Effects" deck_id="1" slot_id="0">
+                    <translation action_on="press" behaviour="static" static_value="Multi Mode"/>
+                </effect_bank_mode>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="Multi Mode"/>
+            </condition>
+            <userio event="click">
+                <effect_bank_mode deck_set="DJ Effects" deck_id="1" slot_id="0">
+                    <translation action_on="press" behaviour="static" static_value="Single Mode"/>
+                </effect_bank_mode>
+            </userio>
+        </case>
+    </control>
+    <!-- LEVEL KNOBS -->
+    <control channel="1" event_type="Control Change" data_type="Absolute 7" control="6">
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="Single Mode"/>
+            </condition>
+            <userio event="click">
+                <effect_slot_parameter_1 deck_set="DJ Effects" deck_id="1" slot_id="0">
+                    <translation action_on="any" behaviour="explicit"/>
+                </effect_slot_parameter_1>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="Multi Mode"/>
+            </condition>
+            <userio event="click">
+                <effect_level_1_slot_parameter_1 deck_set="DJ Effects" deck_id="1" slot_id="1">
+                    <translation action_on="any" behaviour="explicit"/>
+                </effect_level_1_slot_parameter_1>
+            </userio>
+        </case>
+    </control>
+    <control channel="1" event_type="Control Change" data_type="Absolute 7" control="7">
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="Single Mode"/>
+            </condition>
+            <userio event="click">
+                <effect_slot_parameter_2 deck_set="DJ Effects" deck_id="1" slot_id="0">
+                    <translation action_on="any" behaviour="explicit"/>
+                </effect_slot_parameter_2>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="Multi Mode"/>
+            </condition>
+            <userio event="click">
+                <effect_level_1_slot_parameter_1 deck_set="DJ Effects" deck_id="1" slot_id="2">
+                    <translation action_on="any" behaviour="explicit"/>
+                </effect_level_1_slot_parameter_1>
+            </userio>
+        </case>
+    </control>
+    <control channel="1" event_type="Control Change" data_type="Absolute 7" control="8">
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="Single Mode"/>
+            </condition>
+            <userio event="click">
+                <effect_slot_parameter_3 deck_set="DJ Effects" deck_id="1" slot_id="0">
+                    <translation action_on="any" behaviour="explicit"/>
+                </effect_slot_parameter_3>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="Multi Mode"/>
+            </condition>
+            <userio event="click">
+                <effect_level_1_slot_parameter_1 deck_set="DJ Effects" deck_id="1" slot_id="3">
+                    <translation action_on="any" behaviour="explicit"/>
+                </effect_level_1_slot_parameter_1>
+            </userio>
+        </case>
+    </control>
+    <!-- FX BUTTONS -->
+    <control channel="1" event_type="Control Change" data_type="Absolute 7" control="44">
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="Single Mode"/>
+                <touch_effect_modifier deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="off"/>
+            </condition>
+            <userio event="click">
+                <effect_slot_parameter_5 deck_set="DJ Effects" deck_id="1" slot_id="0">
+                    <translation action_on="any" behaviour="explicit"/>
+                </effect_slot_parameter_5>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="Multi Mode"/>
+                <touch_effect_modifier deck_set="DJ Effects" deck_id="1" slot_id="3" operator="equal" cmp_value="off"/>
+            </condition>
+            <userio event="click">
+                <effect_level_1_slot_enable deck_set="DJ Effects" deck_id="1" slot_id="3">
+                    <translation action_on="press" behaviour="toggle"/>
+                </effect_level_1_slot_enable>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="Multi Mode"/>
+                <touch_effect_modifier deck_set="DJ Effects" deck_id="1" slot_id="3" operator="equal" cmp_value="on"/>
+            </condition>
+            <userio event="click">
+                <effect_level_1_slot_enable deck_set="DJ Effects" deck_id="1" slot_id="3">
+                    <translation action_on="press" behaviour="static" static_value="on"/>
+                </effect_level_1_slot_enable>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <touch_effect_modifier deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="on"/>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="Single Mode"/>
+            </condition>
+            <userio event="click">
+                <effect_slot_parameter_5 deck_set="DJ Effects" deck_id="1" slot_id="0">
+                    <translation action_on="press" behaviour="static" static_value="on"/>
+                </effect_slot_parameter_5>
+            </userio>
+        </case>
+    </control>
+    <control channel="1" event_type="Control Change" data_type="Absolute 7" control="45">
+        <case>
+            <condition>
+                <touch_effect_modifier deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="off"/>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="Single Mode"/>
+            </condition>
+            <userio event="click">
+                <effect_slot_parameter_4 deck_set="DJ Effects" deck_id="1" slot_id="0">
+                    <translation action_on="any" behaviour="explicit"/>
+                </effect_slot_parameter_4>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="Single Mode"/>
+                <touch_effect_modifier deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="on"/>
+            </condition>
+            <userio event="click">
+                <effect_slot_parameter_4 deck_set="DJ Effects" deck_id="1" slot_id="0">
+                    <translation action_on="press" behaviour="static" static_value="on"/>
+                </effect_slot_parameter_4>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="Multi Mode"/>
+                <touch_effect_modifier deck_set="DJ Effects" deck_id="1" slot_id="2" operator="equal" cmp_value="off"/>
+            </condition>
+            <userio event="click">
+                <effect_level_1_slot_enable deck_set="DJ Effects" deck_id="1" slot_id="2">
+                    <translation action_on="press" behaviour="toggle"/>
+                </effect_level_1_slot_enable>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <effect_bank_mode deck_set="DJ Effects" deck_id="1" slot_id="0" operator="equal" cmp_value="Multi Mode"/>
+                <touch_effect_modifier deck_set="DJ Effects" deck_id="1" slot_id="2" operator="equal" cmp_value="on"/>
+            </condition>
+            <userio event="click">
+                <effect_level_1_slot_enable deck_set="DJ Effects" deck_id="1" slot_id="2">
+                    <translation action_on="press" behaviour="static" static_value="on"/>
+                </effect_level_1_slot_enable>
+            </userio>
+        </case>
+    </control>
+    <!-- TAP TEMPO -->
+    <control channel="1" event_type="Control Change" control="48">
+        <userio event="click">
+            <effect_bank_tap_tempo deck_set="DJ Effects" deck_id="1" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </effect_bank_tap_tempo>
+        </userio>
+    </control>
+    <control channel="1" event_type="Control Change" control="49">
+        <userio event="click">
+            <effect_bank_tap_tempo deck_set="DJ Effects" deck_id="0" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </effect_bank_tap_tempo>
+        </userio>
+    </control>
+    
+    
+</midi>
